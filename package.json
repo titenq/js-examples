@@ -1,0 +1,26 @@
+{
+    "name": "js-examples",
+    "displayName": "JS Examples",
+    "publisher": "titenq",
+    "description": "Javascript snippets for VS Code with code examples",
+    "icon": "icon.png",
+    "version": "0.1.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/titenq/js-examples.git"
+    },
+    "engines": {
+        "vscode": "^1.45.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
